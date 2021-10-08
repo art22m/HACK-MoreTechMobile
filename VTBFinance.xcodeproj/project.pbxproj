@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52491082710AAD300FB3D03 /* AppDelegate.swift */; };
 		E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524910A2710AAD300FB3D03 /* SceneDelegate.swift */; };
-		E524910D2710AAD300FB3D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524910C2710AAD300FB3D03 /* ViewController.swift */; };
+		E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524910C2710AAD300FB3D03 /* MainViewController.swift */; };
 		E52491102710AAD300FB3D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E524910E2710AAD300FB3D03 /* Main.storyboard */; };
 		E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52491112710AAD500FB3D03 /* Assets.xcassets */; };
 		E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52491132710AAD500FB3D03 /* LaunchScreen.storyboard */; };
+		E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */; };
+		E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */; };
+		E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */; };
+		E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E52491052710AAD300FB3D03 /* VTBFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTBFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52491082710AAD300FB3D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E524910A2710AAD300FB3D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E524910C2710AAD300FB3D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E524910C2710AAD300FB3D03 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E524910F2710AAD300FB3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E52491112710AAD500FB3D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52491142710AAD500FB3D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E52491162710AAD500FB3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
+		E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsTableViewCell.swift; sourceTree = "<group>"; };
+		E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +64,10 @@
 		E52491072710AAD300FB3D03 /* VTBFinance */ = {
 			isa = PBXGroup;
 			children = (
-				E524911C2710AC0500FB3D03 /* Supporting Files */,
 				E52491082710AAD300FB3D03 /* AppDelegate.swift */,
-				E524910C2710AAD300FB3D03 /* ViewController.swift */,
-				E524910E2710AAD300FB3D03 /* Main.storyboard */,
+				E5E4437B271109D30066CD32 /* View */,
+				E5E4437C271109FE0066CD32 /* Controller */,
+				E524911C2710AC0500FB3D03 /* Supporting Files */,
 				E52491162710AAD500FB3D03 /* Info.plist */,
 			);
 			path = VTBFinance;
@@ -73,6 +81,42 @@
 				E52491132710AAD500FB3D03 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5E4437B271109D30066CD32 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5E4437E27110A1C0066CD32 /* CustomCells */,
+				E524910E2710AAD300FB3D03 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E5E4437C271109FE0066CD32 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E5E4437D27110A0E0066CD32 /* CustomCells */,
+				E524910C2710AAD300FB3D03 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5E4437D27110A0E0066CD32 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */,
+				E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		E5E4437E27110A1C0066CD32 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */,
+				E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +179,9 @@
 			files = (
 				E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */,
 				E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */,
+				E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */,
 				E52491102710AAD300FB3D03 /* Main.storyboard in Resources */,
+				E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +192,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E524910D2710AAD300FB3D03 /* ViewController.swift in Sources */,
+				E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */,
+				E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */,
+				E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */,
 				E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */,
 				E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */,
 			);
@@ -300,7 +348,7 @@
 				DEVELOPMENT_TEAM = RTG39GK7BU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VTBFinance/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ВТБ Финансовая независимость";
+				INFOPLIST_KEY_CFBundleDisplayName = "ВТБ Учебник";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +379,7 @@
 				DEVELOPMENT_TEAM = RTG39GK7BU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VTBFinance/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ВТБ Финансовая независимость";
+				INFOPLIST_KEY_CFBundleDisplayName = "ВТБ Учебник";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
