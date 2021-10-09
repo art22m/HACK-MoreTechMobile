@@ -19,6 +19,8 @@
 		E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */; };
 		E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */; };
 		E591B91A271119EB006259ED /* ButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B918271119EB006259ED /* ButtonCollectionViewCell.xib */; };
+		E591B923271122E3006259ED /* BalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B921271122E3006259ED /* BalanceTableViewCell.swift */; };
+		E591B924271122E3006259ED /* BalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B922271122E3006259ED /* BalanceTableViewCell.xib */; };
 		E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */; };
 		E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */; };
 		E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */; };
@@ -40,6 +42,8 @@
 		E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonsSectionTableViewCell.xib; sourceTree = "<group>"; };
 		E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		E591B918271119EB006259ED /* ButtonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCollectionViewCell.xib; sourceTree = "<group>"; };
+		E591B921271122E3006259ED /* BalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceTableViewCell.swift; sourceTree = "<group>"; };
+		E591B922271122E3006259ED /* BalanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BalanceTableViewCell.xib; sourceTree = "<group>"; };
 		E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsTableViewCell.swift; sourceTree = "<group>"; };
 		E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsTableViewCell.xib; sourceTree = "<group>"; };
 		E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAndButtonTableViewCell.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 		E5E4437D27110A0E0066CD32 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				E591B921271122E3006259ED /* BalanceTableViewCell.swift */,
 				E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */,
 				E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */,
 				E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */,
@@ -128,6 +133,7 @@
 		E5E4437E27110A1C0066CD32 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				E591B922271122E3006259ED /* BalanceTableViewCell.xib */,
 				E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */,
 				E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */,
 				E5E4438027110B100066CD32 /* HeaderAndButtonTableViewCell.xib */,
@@ -196,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E591B91A271119EB006259ED /* ButtonCollectionViewCell.xib in Resources */,
+				E591B924271122E3006259ED /* BalanceTableViewCell.xib in Resources */,
 				E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */,
 				E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */,
 				E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */,
@@ -221,6 +228,7 @@
 				E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */,
 				E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */,
 				E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */,
+				E591B923271122E3006259ED /* BalanceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

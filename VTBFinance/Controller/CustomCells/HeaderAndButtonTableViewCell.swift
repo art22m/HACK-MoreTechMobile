@@ -34,7 +34,7 @@ class HeaderAndButtonTableViewCell: UITableViewCell {
     
     
     @IBAction func buttonTapped(_ sender: Any) {
-        
+        print("Tapped")
     }
     
 }

@@ -19,7 +19,6 @@ class ButtonsSectionTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-                
         // Initialize the CollectionView
         buttonsCollectionView.register(ButtonCollectionViewCell.nib(), forCellWithReuseIdentifier: ButtonCollectionViewCell.identifier)
         buttonsCollectionView.dataSource = self
