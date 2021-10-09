@@ -9,7 +9,10 @@ import UIKit
 
 class ButtonsSectionTableViewCell: UITableViewCell {
     @IBOutlet weak var buttonsCollectionView: UICollectionView!
-    var buttons: [Int] = [1, 2, 3, 4]
+    var buttons: [BottomButtonModel] = [
+        BottomButtonModel(description: "Мои достижения", logo: UIImage(named: "AchievementsLogo")),
+        BottomButtonModel(description: "Настройки", logo: UIImage(named: "AchievementsLogo"))
+    ]
         
     static let identifier = "ButtonsSectionTableViewCell"
     static func nib() -> UINib {
@@ -19,6 +22,7 @@ class ButtonsSectionTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialize the CollectionView
         buttonsCollectionView.register(ButtonCollectionViewCell.nib(), forCellWithReuseIdentifier: ButtonCollectionViewCell.identifier)
         buttonsCollectionView.dataSource = self
@@ -40,6 +44,8 @@ extension ButtonsSectionTableViewCell: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = buttonsCollectionView.dequeueReusableCell(withReuseIdentifier: ButtonCollectionViewCell.identifier, for: indexPath) as? ButtonCollectionViewCell else { return UICollectionViewCell() }
+        
+        cell.configure(with: buttons[indexPath.row])
         
         return cell
     }

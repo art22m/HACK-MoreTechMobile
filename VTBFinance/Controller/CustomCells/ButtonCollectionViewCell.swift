@@ -24,5 +24,10 @@ class ButtonCollectionViewCell: UICollectionViewCell {
         
         self.layer.cornerRadius = 20
     }
+    
+    func configure(with button: BottomButtonModel) {
+        self.logo.image = button.logo
+        self.descriptionLabel.text = button.description
+    }
 
 }

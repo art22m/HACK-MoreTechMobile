@@ -6,6 +6,7 @@
 //
 
 import UIKit
+
 protocol LevelCellDelegate {
     func callSegueFromCell()
 }
@@ -80,7 +81,7 @@ extension MainViewController : UITableViewDataSource {
         } else if indexPath.row == 1 {
             return 44
         } else if indexPath.row == 2 {
-            return view.frame.height / 2.5
+            return view.frame.height / 2.2
         } else if indexPath.row == 3 {
             return 44
         } else if indexPath.row == 4 {

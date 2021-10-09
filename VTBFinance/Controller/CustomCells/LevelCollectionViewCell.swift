@@ -8,6 +8,9 @@
 import UIKit
 
 class LevelCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var levelName: UILabel!
+    @IBOutlet weak var levelDescription: UILabel!
+    @IBOutlet weak var levelLogo: UIImageView!
     
     static let identifier = "LevelCollectionViewCell"
     static func nib() -> UINib {
@@ -20,4 +23,9 @@ class LevelCollectionViewCell: UICollectionViewCell {
         self.layer.cornerRadius = 20
     }
     
+    func configure(with level: LevelModel) {
+        self.levelName.text = level.name
+        self.levelDescription.text = level.desctiption
+        self.levelLogo.image = level.logo
+    }
 }

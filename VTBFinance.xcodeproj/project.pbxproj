@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5159D322711E65E007BA37E /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5159D312711E65E007BA37E /* StoriesViewController.swift */; };
 		E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52491082710AAD300FB3D03 /* AppDelegate.swift */; };
 		E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524910A2710AAD300FB3D03 /* SceneDelegate.swift */; };
 		E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E524910C2710AAD300FB3D03 /* MainViewController.swift */; };
@@ -25,9 +26,14 @@
 		E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */; };
 		E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */; };
 		E5E4438227110B100066CD32 /* HeaderAndButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E4438027110B100066CD32 /* HeaderAndButtonTableViewCell.xib */; };
+		E5FA91972711EC6700AD6443 /* TextStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */; };
+		E5FA91982711EC6700AD6443 /* TextStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */; };
+		E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919A2712357E00AD6443 /* LevelModel.swift */; };
+		E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5159D312711E65E007BA37E /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
 		E52491052710AAD300FB3D03 /* VTBFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VTBFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52491082710AAD300FB3D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E524910A2710AAD300FB3D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +54,10 @@
 		E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsTableViewCell.xib; sourceTree = "<group>"; };
 		E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAndButtonTableViewCell.swift; sourceTree = "<group>"; };
 		E5E4438027110B100066CD32 /* HeaderAndButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderAndButtonTableViewCell.xib; sourceTree = "<group>"; };
+		E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextStoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		E5FA919A2712357E00AD6443 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5159D332711E68C007BA37E /* StoryCells */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */,
+			);
+			path = StoryCells;
+			sourceTree = "<group>";
+		};
+		E5159D342711E69E007BA37E /* StoryCells */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */,
+			);
+			path = StoryCells;
+			sourceTree = "<group>";
+		};
 		E52490FC2710AAD300FB3D03 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				E52491082710AAD300FB3D03 /* AppDelegate.swift */,
+				E5FA91992712354A00AD6443 /* Model */,
 				E5E4437B271109D30066CD32 /* View */,
 				E5E4437C271109FE0066CD32 /* Controller */,
 				E524911C2710AC0500FB3D03 /* Supporting Files */,
@@ -102,6 +129,7 @@
 		E5E4437B271109D30066CD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E5159D332711E68C007BA37E /* StoryCells */,
 				E5E4437E27110A1C0066CD32 /* CustomCells */,
 				E524910E2710AAD300FB3D03 /* Main.storyboard */,
 			);
@@ -111,8 +139,10 @@
 		E5E4437C271109FE0066CD32 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E5159D342711E69E007BA37E /* StoryCells */,
 				E5E4437D27110A0E0066CD32 /* CustomCells */,
 				E524910C2710AAD300FB3D03 /* MainViewController.swift */,
+				E5159D312711E65E007BA37E /* StoriesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -141,6 +171,15 @@
 				E591B918271119EB006259ED /* ButtonCollectionViewCell.xib */,
 			);
 			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		E5FA91992712354A00AD6443 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5FA919A2712357E00AD6443 /* LevelModel.swift */,
+				E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +246,7 @@
 				E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */,
 				E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */,
 				E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */,
+				E5FA91982711EC6700AD6443 /* TextStoryCollectionViewCell.xib in Resources */,
 				E52491102710AAD300FB3D03 /* Main.storyboard in Resources */,
 				E5E4438227110B100066CD32 /* HeaderAndButtonTableViewCell.xib in Resources */,
 				E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */,
@@ -220,11 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */,
+				E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */,
+				E5159D322711E65E007BA37E /* StoriesViewController.swift in Sources */,
 				E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */,
 				E591B915271118B7006259ED /* ButtonsSectionTableViewCell.swift in Sources */,
 				E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */,
 				E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */,
 				E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */,
+				E5FA91972711EC6700AD6443 /* TextStoryCollectionViewCell.swift in Sources */,
 				E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */,
 				E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */,
 				E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */,

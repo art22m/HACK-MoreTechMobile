@@ -40,20 +40,50 @@
             </objects>
             <point key="canvasLocation" x="-229" y="30"/>
         </scene>
-        <!--View Controller-->
+        <!--Stories View Controller-->
         <scene sceneID="Cyx-5N-mAz">
             <objects>
-                <viewController id="Nqa-Yf-nOT" sceneMemberID="viewController">
+                <viewController id="Nqa-Yf-nOT" customClass="StoriesViewController" customModule="VTBFinance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lTX-e6-TnT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ZNb-k6-6Ya">
+                                <rect key="frame" x="0.0" y="19" width="320" height="529"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PGQ-xU-BU0">
+                                    <size key="itemSize" width="128" height="129"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="Srr-Vu-yaR">
+                                <rect key="frame" x="50" y="10" width="220" height="4"/>
+                                <color key="progressTintColor" red="0.28627450980000002" green="0.63529411759999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aJV-ih-WHX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZNb-k6-6Ya" firstAttribute="leading" secondItem="aJV-ih-WHX" secondAttribute="leading" id="3qf-tV-OWq"/>
+                            <constraint firstItem="Srr-Vu-yaR" firstAttribute="leading" secondItem="aJV-ih-WHX" secondAttribute="leading" constant="50" id="55K-4l-GsE"/>
+                            <constraint firstItem="Srr-Vu-yaR" firstAttribute="top" secondItem="aJV-ih-WHX" secondAttribute="top" constant="10" id="6O3-0B-FHK"/>
+                            <constraint firstItem="aJV-ih-WHX" firstAttribute="trailing" secondItem="ZNb-k6-6Ya" secondAttribute="trailing" id="D8i-vH-M0B"/>
+                            <constraint firstItem="aJV-ih-WHX" firstAttribute="bottom" secondItem="ZNb-k6-6Ya" secondAttribute="bottom" id="Mmg-4d-76e"/>
+                            <constraint firstItem="aJV-ih-WHX" firstAttribute="trailing" secondItem="Srr-Vu-yaR" secondAttribute="trailing" constant="50" id="aBI-8Q-ZaB"/>
+                            <constraint firstItem="ZNb-k6-6Ya" firstAttribute="top" secondItem="Srr-Vu-yaR" secondAttribute="bottom" constant="5" id="lRw-AL-CAM"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progress" destination="Srr-Vu-yaR" id="bPk-c6-PMQ"/>
+                        <outlet property="storiesCollection" destination="ZNb-k6-6Ya" id="vyD-tz-vMJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zbb-gU-YFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="829" y="-259"/>
+            <point key="canvasLocation" x="828.75" y="-259.85915492957747"/>
         </scene>
     </scenes>
     <resources>

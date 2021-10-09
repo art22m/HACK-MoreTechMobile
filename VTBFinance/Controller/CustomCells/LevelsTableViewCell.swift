@@ -9,7 +9,11 @@ import UIKit
 
 class LevelsTableViewCell: UITableViewCell {
     @IBOutlet weak var levelsCollectionView: UICollectionView!
-    var levels: [Int] = [1, 2, 3, 4]
+    var levels: [
+        LevelModel] = [
+            LevelModel(name: "Инфляция", desctiption: "Что такое инфляция? Ты знаешь? Я нет!", logo: UIImage(named: "AchievementsLogo")),
+            LevelModel(name: "Инвестиции: Инвестиции+Инвестиции", desctiption: "Что такое инфляция? Ты знаешь? Я нет!", logo: UIImage(named: "AchievementsLogo"))
+        ]
     var delegate: LevelCellDelegate?
     
     static let identifier = "LevelsTableViewCell"
@@ -43,7 +47,7 @@ extension LevelsTableViewCell: UICollectionViewDataSource {
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = levelsCollectionView.dequeueReusableCell(withReuseIdentifier: LevelCollectionViewCell.identifier, for: indexPath) as? LevelCollectionViewCell else { return UICollectionViewCell() }
-        
+        cell.configure(with: levels[indexPath.row])
         return cell
     }
 }
