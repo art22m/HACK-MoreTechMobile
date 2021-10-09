@@ -19,7 +19,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="eZ0-QB-y67">
-                        <rect key="frame" x="20" y="11" width="1100" height="242"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1140" height="264"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="AWY-hS-HcS">
                             <size key="itemSize" width="128" height="128"/>
@@ -30,10 +30,10 @@
                     </collectionView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="eZ0-QB-y67" secondAttribute="trailing" id="43J-4D-2UR"/>
-                    <constraint firstItem="eZ0-QB-y67" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="XVL-QU-kua"/>
-                    <constraint firstItem="eZ0-QB-y67" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="cdi-s7-yut"/>
-                    <constraint firstItem="eZ0-QB-y67" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="kLj-rx-mVO"/>
+                    <constraint firstItem="eZ0-QB-y67" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="S4g-6Y-kkm"/>
+                    <constraint firstItem="eZ0-QB-y67" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aUO-Jb-s8N"/>
+                    <constraint firstAttribute="trailing" secondItem="eZ0-QB-y67" secondAttribute="trailing" id="fBW-LJ-QCw"/>
+                    <constraint firstAttribute="bottom" secondItem="eZ0-QB-y67" secondAttribute="bottom" id="tSW-Vj-N4r"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

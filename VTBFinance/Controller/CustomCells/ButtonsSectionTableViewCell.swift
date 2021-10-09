@@ -54,4 +54,9 @@ extension ButtonsSectionTableViewCell: UICollectionViewDelegateFlowLayout {
         
         return CGSize(width: width, height: height)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+    
+        return UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+    }
 }

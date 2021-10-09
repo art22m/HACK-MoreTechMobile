@@ -33,11 +33,27 @@
                     </view>
                     <connections>
                         <outlet property="sectionsTable" destination="82Y-ho-lTK" id="5Nx-rC-yIe"/>
+                        <segue destination="Nqa-Yf-nOT" kind="presentation" identifier="showLevel" id="CB8-BN-aeh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-97" y="139"/>
+            <point key="canvasLocation" x="-229" y="30"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Cyx-5N-mAz">
+            <objects>
+                <viewController id="Nqa-Yf-nOT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lTX-e6-TnT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aJV-ih-WHX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zbb-gU-YFj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="829" y="-259"/>
         </scene>
     </scenes>
     <resources>

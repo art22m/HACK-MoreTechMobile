@@ -26,7 +26,7 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Header" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVq-VI-MKa">
-                        <rect key="frame" x="30" y="5" width="216" height="37"/>
+                        <rect key="frame" x="25" y="5" width="221" height="37"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="bottom" secondItem="vVq-VI-MKa" secondAttribute="bottom" constant="2" id="0Ea-BT-QJd"/>
-                    <constraint firstItem="vVq-VI-MKa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="BXf-oV-il2"/>
+                    <constraint firstItem="vVq-VI-MKa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="BXf-oV-il2"/>
                     <constraint firstItem="2GC-6R-V9t" firstAttribute="leading" secondItem="vVq-VI-MKa" secondAttribute="trailing" constant="5" id="LpI-wl-cmn"/>
                     <constraint firstAttribute="trailing" secondItem="2GC-6R-V9t" secondAttribute="trailing" constant="20" id="ZRf-Ey-A1d"/>
                     <constraint firstItem="2GC-6R-V9t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="nab-xY-owf"/>
