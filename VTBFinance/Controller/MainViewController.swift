@@ -11,12 +11,26 @@ protocol LevelCellDelegate {
     func callSegueFromCell()
 }
 
+protocol IntroDelegate {
+    func updateBalance(newBalance: String)
+}
+
 class MainViewController: UIViewController, LevelCellDelegate {
     @IBOutlet weak var sectionsTable: UITableView!
+    let defaults = UserDefaults.standard
+    var balance : String = "0.0"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        // Show introductery screen while first run
+        if (defaults.bool(forKey: "isFirstLaunch") == true) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+                self.performSegue(withIdentifier: "showIntro", sender: self)
+            }
+            defaults.set(true, forKey: "isFirstLaunch")
+        }
+        
         
         // Initialize the TableView
         sectionsTable.delegate   = self
@@ -31,6 +45,20 @@ class MainViewController: UIViewController, LevelCellDelegate {
     func callSegueFromCell() {
         performSegue(withIdentifier: "showLevel", sender: self)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let nextViewController = segue.destination as? IntroductionViewController {
+            nextViewController.delegate = self
+        }
+    }
+}
+
+extension MainViewController: IntroDelegate {
+    func updateBalance(newBalance: String) {
+        self.balance = newBalance
+        print(newBalance)
+        sectionsTable.reloadData()
+    }
 }
 
 // MARK: - TableViewDataSource
@@ -43,6 +71,8 @@ extension MainViewController : UITableViewDataSource {
         if indexPath.row == 0 {
             guard let cell = sectionsTable.dequeueReusableCell(withIdentifier: BalanceTableViewCell.identifier, for: indexPath) as? BalanceTableViewCell
             else { return BalanceTableViewCell() }
+            
+            cell.configure(balance: self.balance, profit: "0.0₽ (0.0%)")
             
             return cell
         } else if indexPath.row == 1 {

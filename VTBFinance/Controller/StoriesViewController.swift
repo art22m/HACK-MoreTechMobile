@@ -15,6 +15,7 @@ protocol StoryDelegate {
 class StoriesViewController: UIViewController {
     @IBOutlet weak var progress: UIProgressView!
     @IBOutlet weak var storiesCollection: UICollectionView!
+
     var stories: [Int] = [1, 2, 3]
     var storyNumber = 1
     var percent: Float = 0.0
@@ -57,6 +58,7 @@ extension StoriesViewController: StoryDelegate {
         storyNumber -= 1
     }
 }
+
 // MARK: - CollectionViewDelegate
 
 extension StoriesViewController: UICollectionViewDelegate {

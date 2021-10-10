@@ -16,12 +16,15 @@
 		E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52491132710AAD500FB3D03 /* LaunchScreen.storyboard */; };
 		E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */; };
 		E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */; };
+		E56EE1362712796600F34AEB /* SecondIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE1352712796600F34AEB /* SecondIntroViewController.swift */; };
+		E56EE1382712797200F34AEB /* ThirdIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE1372712797200F34AEB /* ThirdIntroViewController.swift */; };
 		E591B915271118B7006259ED /* ButtonsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B913271118B6006259ED /* ButtonsSectionTableViewCell.swift */; };
 		E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */; };
 		E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */; };
 		E591B91A271119EB006259ED /* ButtonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B918271119EB006259ED /* ButtonCollectionViewCell.xib */; };
 		E591B923271122E3006259ED /* BalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B921271122E3006259ED /* BalanceTableViewCell.swift */; };
 		E591B924271122E3006259ED /* BalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B922271122E3006259ED /* BalanceTableViewCell.xib */; };
+		E5B9533427124F1B00B45E23 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B9533327124F1B00B45E23 /* IntroductionViewController.swift */; };
 		E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */; };
 		E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */; };
 		E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */; };
@@ -30,6 +33,8 @@
 		E5FA91982711EC6700AD6443 /* TextStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */; };
 		E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919A2712357E00AD6443 /* LevelModel.swift */; };
 		E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */; };
+		E5FA91A62712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */; };
+		E5FA91A72712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,12 +49,15 @@
 		E52491162710AAD500FB3D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52491212710E7A400FB3D03 /* LevelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCollectionViewCell.swift; sourceTree = "<group>"; };
 		E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
+		E56EE1352712796600F34AEB /* SecondIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondIntroViewController.swift; sourceTree = "<group>"; };
+		E56EE1372712797200F34AEB /* ThirdIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdIntroViewController.swift; sourceTree = "<group>"; };
 		E591B913271118B6006259ED /* ButtonsSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsSectionTableViewCell.swift; sourceTree = "<group>"; };
 		E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonsSectionTableViewCell.xib; sourceTree = "<group>"; };
 		E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
 		E591B918271119EB006259ED /* ButtonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCollectionViewCell.xib; sourceTree = "<group>"; };
 		E591B921271122E3006259ED /* BalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceTableViewCell.swift; sourceTree = "<group>"; };
 		E591B922271122E3006259ED /* BalanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BalanceTableViewCell.xib; sourceTree = "<group>"; };
+		E5B9533327124F1B00B45E23 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		E5E443772710F2470066CD32 /* LevelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsTableViewCell.swift; sourceTree = "<group>"; };
 		E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsTableViewCell.xib; sourceTree = "<group>"; };
 		E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAndButtonTableViewCell.swift; sourceTree = "<group>"; };
@@ -58,6 +66,8 @@
 		E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextStoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		E5FA919A2712357E00AD6443 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
 		E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonModel.swift; sourceTree = "<group>"; };
+		E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndButtonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextAndButtonsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,20 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E5159D332711E68C007BA37E /* StoryCells */ = {
+		E5159D332711E68C007BA37E /* LevelCells */ = {
 			isa = PBXGroup;
 			children = (
+				E56EE13927128B5900F34AEB /* Inflation */,
+				E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */,
 				E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */,
 			);
-			path = StoryCells;
+			path = LevelCells;
 			sourceTree = "<group>";
 		};
-		E5159D342711E69E007BA37E /* StoryCells */ = {
+		E5159D342711E69E007BA37E /* LevelCells */ = {
 			isa = PBXGroup;
 			children = (
+				E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */,
 				E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */,
 			);
-			path = StoryCells;
+			path = LevelCells;
 			sourceTree = "<group>";
 		};
 		E52490FC2710AAD300FB3D03 = {
@@ -126,10 +139,27 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E56EE1342712794700F34AEB /* IntroScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E5B9533327124F1B00B45E23 /* IntroductionViewController.swift */,
+				E56EE1352712796600F34AEB /* SecondIntroViewController.swift */,
+				E56EE1372712797200F34AEB /* ThirdIntroViewController.swift */,
+			);
+			path = IntroScreens;
+			sourceTree = "<group>";
+		};
+		E56EE13927128B5900F34AEB /* Inflation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Inflation;
+			sourceTree = "<group>";
+		};
 		E5E4437B271109D30066CD32 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E5159D332711E68C007BA37E /* StoryCells */,
+				E5159D332711E68C007BA37E /* LevelCells */,
 				E5E4437E27110A1C0066CD32 /* CustomCells */,
 				E524910E2710AAD300FB3D03 /* Main.storyboard */,
 			);
@@ -139,7 +169,8 @@
 		E5E4437C271109FE0066CD32 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E5159D342711E69E007BA37E /* StoryCells */,
+				E56EE1342712794700F34AEB /* IntroScreens */,
+				E5159D342711E69E007BA37E /* LevelCells */,
 				E5E4437D27110A0E0066CD32 /* CustomCells */,
 				E524910C2710AAD300FB3D03 /* MainViewController.swift */,
 				E5159D312711E65E007BA37E /* StoriesViewController.swift */,
@@ -242,6 +273,7 @@
 			files = (
 				E591B91A271119EB006259ED /* ButtonCollectionViewCell.xib in Resources */,
 				E591B924271122E3006259ED /* BalanceTableViewCell.xib in Resources */,
+				E5FA91A72712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib in Resources */,
 				E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */,
 				E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */,
 				E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */,
@@ -261,12 +293,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */,
+				E56EE1382712797200F34AEB /* ThirdIntroViewController.swift in Sources */,
+				E56EE1362712796600F34AEB /* SecondIntroViewController.swift in Sources */,
+				E5B9533427124F1B00B45E23 /* IntroductionViewController.swift in Sources */,
 				E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */,
 				E5159D322711E65E007BA37E /* StoriesViewController.swift in Sources */,
 				E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */,
 				E591B915271118B7006259ED /* ButtonsSectionTableViewCell.swift in Sources */,
 				E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */,
 				E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */,
+				E5FA91A62712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift in Sources */,
 				E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */,
 				E5FA91972711EC6700AD6443 /* TextStoryCollectionViewCell.swift in Sources */,
 				E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */,

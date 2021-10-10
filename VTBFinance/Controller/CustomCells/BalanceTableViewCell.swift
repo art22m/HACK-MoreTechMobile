@@ -29,4 +29,9 @@ class BalanceTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configure(balance: String, profit: String) {
+        balanceLabel.text = balance
+        profitLabel.text = profit
+    }
+    
 }
