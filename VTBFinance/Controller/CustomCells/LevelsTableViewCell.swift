@@ -11,10 +11,11 @@ class LevelsTableViewCell: UITableViewCell {
     @IBOutlet weak var levelsCollectionView: UICollectionView!
     var levels: [
         LevelModel] = [
-            LevelModel(name: "Инфляция", desctiption: "Что такое инфляция? Ты знаешь? Я нет!", logo: UIImage(named: "AchievementsLogo")),
-            LevelModel(name: "Инвестиции: Инвестиции+Инвестиции", desctiption: "Что такое инфляция? Ты знаешь? Я нет!", logo: UIImage(named: "AchievementsLogo"))
+            LevelModel(name: "Инфляция", desctiption: "Куда деваются деньги?", logo: UIImage(named: "Inflation")),
+            LevelModel(name: "Кто такой брокер?", desctiption: "Зачем нужен брокер? Как его выбрать?", logo: UIImage(named: "Money"))
         ]
     var delegate: LevelCellDelegate?
+    let defaults = UserDefaults.standard
     
     static let identifier = "LevelsTableViewCell"
     static func nib() -> UINib {
@@ -74,7 +75,7 @@ extension LevelsTableViewCell: UICollectionViewDelegateFlowLayout {
 extension LevelsTableViewCell: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
 
-        delegate?.callSegueFromCell()
+        delegate?.callSegueFromCell(id: indexPath.row)
         return true
     }
 }

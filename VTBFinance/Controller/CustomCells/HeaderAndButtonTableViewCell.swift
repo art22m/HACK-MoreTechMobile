@@ -18,8 +18,9 @@ class HeaderAndButtonTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
         
+        // Initialization code
+        button.isHidden = true
     }
     
     func setHeaderLabel(to text: String) {

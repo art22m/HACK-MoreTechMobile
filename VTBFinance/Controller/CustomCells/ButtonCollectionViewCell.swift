@@ -27,6 +27,11 @@ class ButtonCollectionViewCell: UICollectionViewCell {
     
     func configure(with button: BottomButtonModel) {
         self.logo.image = button.logo
+        
+        let newImage = self.logo.image?.withRenderingMode(.alwaysTemplate)
+        self.logo.image = newImage
+        self.logo.tintColor = .white
+        
         self.descriptionLabel.text = button.description
     }
 

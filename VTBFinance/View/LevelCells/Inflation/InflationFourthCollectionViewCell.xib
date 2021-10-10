@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InflationFourthCollectionViewCell" id="gTV-IL-0wX" customClass="InflationFourthCollectionViewCell" customModule="VTBFinance" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Как же посупить с деньгами?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOZ-vr-xSH">
+                        <rect key="frame" x="20" y="30" width="280" height="53"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ml9-Cg-Gmy">
+                        <rect key="frame" x="30" y="388" width="260" height="31"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.63529411759999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Оставить как есть">
+                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="buttonTappedWithSender:" destination="gTV-IL-0wX" eventType="touchUpInside" id="h7B-Eo-Pms"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkT-7D-3HM">
+                        <rect key="frame" x="30" y="429" width="260" height="31"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.63529411759999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Вложить в банк под проценты ">
+                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="buttonTappedWithSender:" destination="gTV-IL-0wX" eventType="touchUpInside" id="cSx-zc-SFJ"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xQh-ZC-6Be">
+                        <rect key="frame" x="30" y="470" width="260" height="48"/>
+                        <color key="backgroundColor" red="0.28627450980000002" green="0.63529411759999999" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="Купить иностранную валюту, а лучше доллары">
+                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="buttonTappedWithSender:" destination="gTV-IL-0wX" eventType="touchUpInside" id="tNU-4O-Oz4"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="OkT-7D-3HM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="23h-bc-3v3"/>
+                <constraint firstAttribute="trailing" secondItem="ml9-Cg-Gmy" secondAttribute="trailing" constant="30" id="DFa-1f-c0o"/>
+                <constraint firstItem="MOZ-vr-xSH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="FCA-KP-Tz2"/>
+                <constraint firstItem="xQh-ZC-6Be" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="IjP-3b-Ohq"/>
+                <constraint firstAttribute="trailing" secondItem="MOZ-vr-xSH" secondAttribute="trailing" constant="20" id="Me9-dF-JAM"/>
+                <constraint firstAttribute="trailing" secondItem="OkT-7D-3HM" secondAttribute="trailing" constant="30" id="ODk-QQ-tMc"/>
+                <constraint firstItem="ml9-Cg-Gmy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="30" id="Pv9-5R-B9x"/>
+                <constraint firstItem="xQh-ZC-6Be" firstAttribute="top" secondItem="OkT-7D-3HM" secondAttribute="bottom" constant="10" id="Pvh-Oc-YjE"/>
+                <constraint firstItem="OkT-7D-3HM" firstAttribute="top" secondItem="ml9-Cg-Gmy" secondAttribute="bottom" constant="10" id="ZCj-cB-wRM"/>
+                <constraint firstItem="MOZ-vr-xSH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="azs-GB-T4c"/>
+                <constraint firstAttribute="bottom" secondItem="xQh-ZC-6Be" secondAttribute="bottom" constant="30" id="gT7-4R-Nwu"/>
+                <constraint firstAttribute="trailing" secondItem="xQh-ZC-6Be" secondAttribute="trailing" constant="30" id="i3g-3X-vBX"/>
+            </constraints>
+            <connections>
+                <outlet property="button1" destination="ml9-Cg-Gmy" id="Kny-VG-UnN"/>
+                <outlet property="button2" destination="OkT-7D-3HM" id="CgG-Jp-i8k"/>
+                <outlet property="button3" destination="xQh-ZC-6Be" id="Cpq-TS-35k"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="83.705357142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>

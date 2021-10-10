@@ -11,7 +11,7 @@ class ButtonsSectionTableViewCell: UITableViewCell {
     @IBOutlet weak var buttonsCollectionView: UICollectionView!
     var buttons: [BottomButtonModel] = [
         BottomButtonModel(description: "Мои достижения", logo: UIImage(named: "AchievementsLogo")),
-        BottomButtonModel(description: "Настройки", logo: UIImage(named: "AchievementsLogo"))
+        BottomButtonModel(description: "Настройки", logo: UIImage(named: "Settings"))
     ]
         
     static let identifier = "ButtonsSectionTableViewCell"

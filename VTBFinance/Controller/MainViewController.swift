@@ -8,7 +8,7 @@
 import UIKit
 
 protocol LevelCellDelegate {
-    func callSegueFromCell()
+    func callSegueFromCell(id: Int)
 }
 
 protocol IntroDelegate {
@@ -18,19 +18,24 @@ protocol IntroDelegate {
 class MainViewController: UIViewController, LevelCellDelegate {
     @IBOutlet weak var sectionsTable: UITableView!
     let defaults = UserDefaults.standard
-    var balance : String = "0.0"
+    var balance: String = "0.0"
+    var nextLesson: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Show introductery screen while first run
-        if (defaults.bool(forKey: "isFirstLaunch") == true) {
+        if (defaults.bool(forKey: "isFirstLaunch") == false ||
+            defaults.bool(forKey: "isFirstLaunch") == nil) {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                 self.performSegue(withIdentifier: "showIntro", sender: self)
             }
             defaults.set(true, forKey: "isFirstLaunch")
         }
         
+        if defaults.integer(forKey: "currentLevel") == nil {
+            defaults.set(1, forKey: "currentLevel")
+        }
         
         // Initialize the TableView
         sectionsTable.delegate   = self
@@ -42,13 +47,16 @@ class MainViewController: UIViewController, LevelCellDelegate {
         sectionsTable.register(ButtonsSectionTableViewCell.nib(), forCellReuseIdentifier: ButtonsSectionTableViewCell.identifier)
     }
     
-    func callSegueFromCell() {
+    func callSegueFromCell(id: Int) {
+        nextLesson = id
         performSegue(withIdentifier: "showLevel", sender: self)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let nextViewController = segue.destination as? IntroductionViewController {
             nextViewController.delegate = self
+        } else if let nextViewController = segue.destination as? StoriesViewController {
+            nextViewController.lessonID = nextLesson
         }
     }
 }

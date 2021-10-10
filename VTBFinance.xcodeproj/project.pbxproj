@@ -18,6 +18,14 @@
 		E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */; };
 		E56EE1362712796600F34AEB /* SecondIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE1352712796600F34AEB /* SecondIntroViewController.swift */; };
 		E56EE1382712797200F34AEB /* ThirdIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE1372712797200F34AEB /* ThirdIntroViewController.swift */; };
+		E56EE14327128C1A00F34AEB /* InflationFirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE14127128C1A00F34AEB /* InflationFirstCollectionViewCell.swift */; };
+		E56EE14427128C1A00F34AEB /* InflationFirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56EE14227128C1A00F34AEB /* InflationFirstCollectionViewCell.xib */; };
+		E56EE1472712921100F34AEB /* InflationSecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE1452712921100F34AEB /* InflationSecondCollectionViewCell.swift */; };
+		E56EE1482712921100F34AEB /* InflationSecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56EE1462712921100F34AEB /* InflationSecondCollectionViewCell.xib */; };
+		E56EE14B271296AF00F34AEB /* InflationThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE149271296AF00F34AEB /* InflationThirdCollectionViewCell.swift */; };
+		E56EE14C271296AF00F34AEB /* InflationThirdCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56EE14A271296AF00F34AEB /* InflationThirdCollectionViewCell.xib */; };
+		E56EE14F2712A35E00F34AEB /* InflationFourthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56EE14D2712A35E00F34AEB /* InflationFourthCollectionViewCell.swift */; };
+		E56EE1502712A35E00F34AEB /* InflationFourthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56EE14E2712A35E00F34AEB /* InflationFourthCollectionViewCell.xib */; };
 		E591B915271118B7006259ED /* ButtonsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B913271118B6006259ED /* ButtonsSectionTableViewCell.swift */; };
 		E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */; };
 		E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */; };
@@ -29,12 +37,8 @@
 		E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */; };
 		E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */; };
 		E5E4438227110B100066CD32 /* HeaderAndButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5E4438027110B100066CD32 /* HeaderAndButtonTableViewCell.xib */; };
-		E5FA91972711EC6700AD6443 /* TextStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */; };
-		E5FA91982711EC6700AD6443 /* TextStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */; };
 		E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919A2712357E00AD6443 /* LevelModel.swift */; };
 		E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */; };
-		E5FA91A62712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */; };
-		E5FA91A72712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +55,14 @@
 		E52491222710E7A400FB3D03 /* LevelCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelCollectionViewCell.xib; sourceTree = "<group>"; };
 		E56EE1352712796600F34AEB /* SecondIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondIntroViewController.swift; sourceTree = "<group>"; };
 		E56EE1372712797200F34AEB /* ThirdIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdIntroViewController.swift; sourceTree = "<group>"; };
+		E56EE14127128C1A00F34AEB /* InflationFirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationFirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		E56EE14227128C1A00F34AEB /* InflationFirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationFirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		E56EE1452712921100F34AEB /* InflationSecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationSecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		E56EE1462712921100F34AEB /* InflationSecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationSecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		E56EE149271296AF00F34AEB /* InflationThirdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		E56EE14A271296AF00F34AEB /* InflationThirdCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationThirdCollectionViewCell.xib; sourceTree = "<group>"; };
+		E56EE14D2712A35E00F34AEB /* InflationFourthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InflationFourthCollectionViewCell.swift; sourceTree = "<group>"; };
+		E56EE14E2712A35E00F34AEB /* InflationFourthCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InflationFourthCollectionViewCell.xib; sourceTree = "<group>"; };
 		E591B913271118B6006259ED /* ButtonsSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsSectionTableViewCell.swift; sourceTree = "<group>"; };
 		E591B914271118B6006259ED /* ButtonsSectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonsSectionTableViewCell.xib; sourceTree = "<group>"; };
 		E591B917271119EB006259ED /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -62,12 +74,8 @@
 		E5E443782710F2470066CD32 /* LevelsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LevelsTableViewCell.xib; sourceTree = "<group>"; };
 		E5E4437F27110B100066CD32 /* HeaderAndButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderAndButtonTableViewCell.swift; sourceTree = "<group>"; };
 		E5E4438027110B100066CD32 /* HeaderAndButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderAndButtonTableViewCell.xib; sourceTree = "<group>"; };
-		E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStoryCollectionViewCell.swift; sourceTree = "<group>"; };
-		E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextStoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		E5FA919A2712357E00AD6443 /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
 		E5FA919C2712381F00AD6443 /* BottomButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomButtonModel.swift; sourceTree = "<group>"; };
-		E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAndButtonsCollectionViewCell.swift; sourceTree = "<group>"; };
-		E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextAndButtonsCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				E56EE13927128B5900F34AEB /* Inflation */,
-				E5FA91A52712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib */,
-				E5FA91962711EC6700AD6443 /* TextStoryCollectionViewCell.xib */,
 			);
 			path = LevelCells;
 			sourceTree = "<group>";
@@ -94,8 +100,7 @@
 		E5159D342711E69E007BA37E /* LevelCells */ = {
 			isa = PBXGroup;
 			children = (
-				E5FA91A42712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift */,
-				E5FA91952711EC6700AD6443 /* TextStoryCollectionViewCell.swift */,
+				E56EE13A27128BAE00F34AEB /* Inflation */,
 			);
 			path = LevelCells;
 			sourceTree = "<group>";
@@ -152,6 +157,21 @@
 		E56EE13927128B5900F34AEB /* Inflation */ = {
 			isa = PBXGroup;
 			children = (
+				E56EE14E2712A35E00F34AEB /* InflationFourthCollectionViewCell.xib */,
+				E56EE14A271296AF00F34AEB /* InflationThirdCollectionViewCell.xib */,
+				E56EE1462712921100F34AEB /* InflationSecondCollectionViewCell.xib */,
+				E56EE14227128C1A00F34AEB /* InflationFirstCollectionViewCell.xib */,
+			);
+			path = Inflation;
+			sourceTree = "<group>";
+		};
+		E56EE13A27128BAE00F34AEB /* Inflation */ = {
+			isa = PBXGroup;
+			children = (
+				E56EE14D2712A35E00F34AEB /* InflationFourthCollectionViewCell.swift */,
+				E56EE149271296AF00F34AEB /* InflationThirdCollectionViewCell.swift */,
+				E56EE1452712921100F34AEB /* InflationSecondCollectionViewCell.swift */,
+				E56EE14127128C1A00F34AEB /* InflationFirstCollectionViewCell.swift */,
 			);
 			path = Inflation;
 			sourceTree = "<group>";
@@ -272,13 +292,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E591B91A271119EB006259ED /* ButtonCollectionViewCell.xib in Resources */,
+				E56EE1502712A35E00F34AEB /* InflationFourthCollectionViewCell.xib in Resources */,
 				E591B924271122E3006259ED /* BalanceTableViewCell.xib in Resources */,
-				E5FA91A72712418B00AD6443 /* TextAndButtonsCollectionViewCell.xib in Resources */,
 				E52491152710AAD500FB3D03 /* LaunchScreen.storyboard in Resources */,
+				E56EE14C271296AF00F34AEB /* InflationThirdCollectionViewCell.xib in Resources */,
 				E52491122710AAD500FB3D03 /* Assets.xcassets in Resources */,
 				E591B916271118B7006259ED /* ButtonsSectionTableViewCell.xib in Resources */,
 				E52491242710E7A400FB3D03 /* LevelCollectionViewCell.xib in Resources */,
-				E5FA91982711EC6700AD6443 /* TextStoryCollectionViewCell.xib in Resources */,
+				E56EE14427128C1A00F34AEB /* InflationFirstCollectionViewCell.xib in Resources */,
+				E56EE1482712921100F34AEB /* InflationSecondCollectionViewCell.xib in Resources */,
 				E52491102710AAD300FB3D03 /* Main.storyboard in Resources */,
 				E5E4438227110B100066CD32 /* HeaderAndButtonTableViewCell.xib in Resources */,
 				E5E4437A2710F2470066CD32 /* LevelsTableViewCell.xib in Resources */,
@@ -295,18 +317,20 @@
 				E5FA919B2712357E00AD6443 /* LevelModel.swift in Sources */,
 				E56EE1382712797200F34AEB /* ThirdIntroViewController.swift in Sources */,
 				E56EE1362712796600F34AEB /* SecondIntroViewController.swift in Sources */,
+				E56EE14B271296AF00F34AEB /* InflationThirdCollectionViewCell.swift in Sources */,
 				E5B9533427124F1B00B45E23 /* IntroductionViewController.swift in Sources */,
+				E56EE1472712921100F34AEB /* InflationSecondCollectionViewCell.swift in Sources */,
+				E56EE14327128C1A00F34AEB /* InflationFirstCollectionViewCell.swift in Sources */,
 				E5FA919D2712381F00AD6443 /* BottomButtonModel.swift in Sources */,
 				E5159D322711E65E007BA37E /* StoriesViewController.swift in Sources */,
 				E52491232710E7A400FB3D03 /* LevelCollectionViewCell.swift in Sources */,
 				E591B915271118B7006259ED /* ButtonsSectionTableViewCell.swift in Sources */,
 				E524910D2710AAD300FB3D03 /* MainViewController.swift in Sources */,
 				E5E443792710F2470066CD32 /* LevelsTableViewCell.swift in Sources */,
-				E5FA91A62712418B00AD6443 /* TextAndButtonsCollectionViewCell.swift in Sources */,
 				E591B919271119EB006259ED /* ButtonCollectionViewCell.swift in Sources */,
-				E5FA91972711EC6700AD6443 /* TextStoryCollectionViewCell.swift in Sources */,
 				E52491092710AAD300FB3D03 /* AppDelegate.swift in Sources */,
 				E5E4438127110B100066CD32 /* HeaderAndButtonTableViewCell.swift in Sources */,
+				E56EE14F2712A35E00F34AEB /* InflationFourthCollectionViewCell.swift in Sources */,
 				E524910B2710AAD300FB3D03 /* SceneDelegate.swift in Sources */,
 				E591B923271122E3006259ED /* BalanceTableViewCell.swift in Sources */,
 			);
